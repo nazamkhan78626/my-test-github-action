@@ -1,10 +1,9 @@
-#app.py
-#this is my test pyh
+# app.py
+# This is a test commit
+# this is my commit
+def add(a, b):
+    return a + b
 
-def substract (a, b):
-    retun a - b
-
-def test_substract():
-    assert substract(3, 2) == 1
-    assert substract(1, -1) == 2
-
+def test_add():
+    assert add(1, 2) == 3
+    assert add(1, -1) == 0
