@@ -2,8 +2,9 @@
 #this is my test pyh
 
 def substract (a, b):
-    retun a + b
+    retun a - b
 
-result = substract(10, 5)
-print ("result:" , result)
+def test_substract():
+    assert substract(3, 2) == 1
+    assert substract(1, -1) == 2
 
